@@ -4,3 +4,11 @@
 #8
 #Then, the output should be:
 #{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
+
+
+mapping = {}
+n = int(raw_input())
+
+for i in range(1,n+1):
+    mapping[i]=i*i
+print mapping
